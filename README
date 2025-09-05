@@ -1,3 +1,22 @@
+This repository provides **detailed annotated solutions** for each lab in 
+the 6.S081 course (to be developed incrementally with branches and directories). 
+It includes:
+- Code solutions (with line-by-line and block-level comments)
+- Common pitfalls and troubleshooting logs
+
+> **Academic Integrity**: For learning and reference only. Please do not submit 
+content from this repository directly as homework. Please adhere to the integrity 
+standards of your institution/course.
+
+
+- `main`: Xv6 baseline and general scaffolding
+- Other branches: Corresponding to each lab (e.g. `lab1`: `sleep.c`, `pingpong.c`, 
+`primes.c`, `find.c`, `xargs.c`, and a modified `Makefile`)
+
+Acknowledgements
+Based on [xv6-labs-2021] and course materials from MIT-PDOS.
+
+
 xv6 is a re-implementation of Dennis Ritchie's and Ken Thompson's Unix
 Version 6 (v6).  xv6 loosely follows the structure and style of v6,
 but is implemented for a modern RISC-V multiprocessor using ANSI C.
